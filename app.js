@@ -230,6 +230,9 @@ app.get('/weatherofdate', async (req, res) => {
       }
 })
 
+app.get('/', (req, res) => {
+  res.send('GET request to the homepage');
+})
 
 
 
